@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
   spec.source             = { :git => "https://github.com/dogo/SCLAlertView.git", :tag => spec.version.to_s }
   spec.source_files       = "SCLAlertView/*"
+  spec.resources          = []
   spec.requires_arc       = true
 end
